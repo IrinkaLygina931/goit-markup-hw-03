@@ -154,7 +154,7 @@ body {
 /* fueters */
 
 .fueters {
-    padding: ;
+    padding: 120px 0;
 }
 
 .fueters-list {
@@ -182,6 +182,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 }
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-title {
@@ -234,6 +235,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 .portfolio-list {
 display: flex;
 margin-bottom: 32px;
+flex-wrap: wrap;
 }
 
 .portfolio-item {
@@ -263,11 +265,14 @@ margin-right: 24px;
 }
 .footer {
 background-color: var(--NAVY-BLUE, #2E2F42);
+padding: 100px 0;
 }
 
 
 .footer-logo {
     color: #F4F4FD;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
