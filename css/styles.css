@@ -197,6 +197,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 .team-list {
     display: flex;
     gap: 24px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-item {
@@ -238,6 +239,10 @@ margin-bottom: 32px;
 flex-wrap: wrap;
 }
 
+.container-name {
+    padding: 32px 0;
+}
+
 .portfolio-item {
 
 }
@@ -262,6 +267,7 @@ margin-right: 24px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         margin-bottom: 32px;
+        text-align: center;
 }
 .footer {
 background-color: var(--NAVY-BLUE, #2E2F42);
