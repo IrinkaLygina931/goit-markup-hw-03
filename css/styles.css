@@ -244,9 +244,9 @@ display: flex;
 margin-bottom: 32px;
 flex-wrap: wrap;
 column-gap: 24px;
-
+row-gap: 48px;
 }
-.container {
+.container-portfolio {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
 }
@@ -286,12 +286,17 @@ margin-right: 24px;
 background-color: var(--NAVY-BLUE, #2E2F42);
 padding: 100px 0;
 }
+.container-footer {
 
+}
+
+.logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 
 .footer-logo {
     color: #F4F4FD;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .footer-text {
