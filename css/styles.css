@@ -35,6 +35,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    padding: 0 15px
 }
 .header {
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
@@ -297,6 +298,8 @@ padding: 100px 0;
 
 .footer-logo {
     color: #F4F4FD;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
